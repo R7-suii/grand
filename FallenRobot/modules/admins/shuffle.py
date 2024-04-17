@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import db
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup
+from FallenRobot import app
+from FallenRobot.misc import db
+from FallenRobot.utils.decorators import AdminRightsCheck
+from FallenRobot.utils.inline import close_markup
 from config import BANNED_USERS
 
 
