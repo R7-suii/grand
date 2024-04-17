@@ -9,19 +9,19 @@ import config
 from FallenRobot import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
 from FallenRobot.core.call import Anony
 from FallenRobot.utils import seconds_to_min, time_to_seconds
-from AnonXMusic.utils.channelplay import get_channeplayCB
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.decorators.play import PlayWrapper
-from AnonXMusic.utils.formatters import formats
-from AnonXMusic.utils.inline import (
+from FallenRobot.utils.channelplay import get_channeplayCB
+from FallenRobot.utils.decorators.language import languageCB
+from FallenRobot.utils.decorators.play import PlayWrapper
+from FallenRobot.utils.formatters import formats
+from FallenRobot.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from AnonXMusic.utils.logger import play_logs
-from AnonXMusic.utils.stream.stream import stream
+from FallenRobot.utils.logger import play_logs
+from FallenRobot.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
