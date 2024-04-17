@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony, autoend
-from AnonXMusic.utils.database import get_client, is_active_chat, is_autoend
+from FallenRobot import app
+from FallenRobot.core.call import Anony, autoend
+from FallenRobot.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
