@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils.database import (
+from FallenRobot import YouTube, app
+from FallenRobot.core.call import Anony
+from FallenRobot.misc import SUDOERS, db
+from FallenRobot.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
