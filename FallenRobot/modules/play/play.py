@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from AnonXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.utils import seconds_to_min, time_to_seconds
+from FallenRobot import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from FallenRobot.core.call import Anony
+from FallenRobot.utils import seconds_to_min, time_to_seconds
 from AnonXMusic.utils.channelplay import get_channeplayCB
 from AnonXMusic.utils.decorators.language import languageCB
 from AnonXMusic.utils.decorators.play import PlayWrapper
